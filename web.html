@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=">
+    <title>This is my first web</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<link href="https://fonts.gdgdocs.org/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  body{
+      background-image: url("image/fengjing.jpg");
+      background-position: bottom;
+  }
+
+  .large-image{
+  width:200px;
+  }
+  .thin-grey-border{
+  border-color:grey;
+  border-width:5px;
+  border-style:solid;
+  border-radius:50%}
+  h1{
+   font-family:Lobster,Sans-Serif;}
+    p {
+      font-size: 16px;
+      font-family: Monospace;
+    }
+    .text-align{
+      text-align:center;
+    }
+    .darkgrey-box{
+        background:darkgrey;
+        padding:50px 100px 50px 100px;
+        margin:50px 350px 50px 350px;
+        box-radius:50%;
+    }
+    .thin-gold-border{
+       border-color: gold;
+       border-width: 5px;
+       border-style: ridge;
+       border-radius: 10px;
+    }
+#myCarousel{
+    width:750px;
+    height:468px;
+    margin:0 auto;
+}
+  </style>
+
+<h1 class="gold-text text-align">萌萌库</h1>
+<p class="text-align"><a href="https://image.baidu.com/search/index?tn=baiduimage&ct=201326592&lm=-1&cl=2&ie=gbk&word=%BF%E2%C0%EF%CD%B6%C0%BA&fr=ala&ori_query=%E5%BA%93%E9%87%8C%E6%8A%95%E7%AF%AE&ala=0&alatpl=sp&pos=0&hs=2&xthttps=111111">
+    <img src="image/hug.jpg" class="large-image thin-grey-border">更多图片</a></p>
+<div id="myCarousel" class="carousel slide ">
+    <!-- 轮播（Carousel）指标 -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <!-- 轮播（Carousel）项目 -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="image/1.jpg" alt="First slide">
+        </div>
+        <div class="item">
+            <img src="image/2.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+            <img src="image/3.jpg" alt="Third slide">
+        </div>
+    </div>
+    <!-- 轮播（Carousel）导航 -->
+    <a class="carousel-control left" href="#myCarousel"
+       data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#myCarousel"
+       data-slide="next">&rsaquo;</a>
+</div>
+<p class="darkgrey-box thin-gold-border ">斯蒂芬·库里（Stephen Curry），1988年3月14日出生于美国俄亥俄州阿克伦（Akron, Ohio），美国职业篮球运动员，司职控球后卫，效力于NBA金州勇士队。
+    斯蒂芬·库里于2009年通过选秀进入NBA后一直效力于勇士队，新秀赛季入选最佳新秀第一阵容；2014-15赛季随勇士队获得NBA总冠军；两次当选常规赛MVP，两次入选最佳阵容第一阵容，4次入选全明星赛西部首发阵容。
+    斯蒂芬·库里于2010年随美国队获土耳其世锦赛冠军，2014年随美国队获西班牙篮球世界杯冠军。
+    因为他无与伦比的天赋和罕见的人格魅力，斯蒂芬-库里长期以来都被视作这个联盟最谦虚的代表，也是最接近真理的那个人。这个NBA的最有价值球员，是整个职业体育工资最配不上能力的人，他竟然只是整个勇士队工资第五的人。
+    然而，从没有人见到他降低对自己的要求，也从没见过他因为这件事而抱怨，感到心里不平衡。
+</p>
+<div class="darkgrey-box thin-gold-border">
+    <p>喜欢他的原因：</p>
+<label><input type="checkbox" name="personality">球技好</label>
+<label><input type="checkbox" name="personality">为人谦逊</label>
+<label><input type="checkbox" name="personality">帅气</label>
+<form action="submit ku-li"><input type="text" placeholder="其他优点">
+    <button type="submit" required>提交</button>
+</form>
+
+</div>
+</body>
+</html>
